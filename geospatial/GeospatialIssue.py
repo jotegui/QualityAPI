@@ -120,7 +120,7 @@ class GeospatialIssue(webapp2.RequestHandler):
                 except UnicodeEncodeError:
                     logging.error(params)
                     raise UnicodeEncodeError
-                
+
                 # Launch the async call to singlerecord
                 urlfetch.make_fetch_call(
                     rpc,

@@ -4,6 +4,7 @@ import webapp2
 
 
 class ErrorHandler(webapp2.RequestHandler):
+    """Show an "offline" error message."""
     def post(self):
         self.get()
 

@@ -5,7 +5,7 @@ from geospatial.GeospatialIssue import GeospatialIssue
 from geospatial.SingleRecord import SingleRecord
 from geospatial.explorer.Explorer import GeospatialExplorerHandler
 
-# ... add more imports here
+# ... add more imports here when they are ready
 
 app = webapp2.WSGIApplication([
 

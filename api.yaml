@@ -37,7 +37,7 @@ handlers:
 - url: /.*
   script: api.app
 
-# # Error handler - uncomment for shutting the API down
+# # Error handler - uncomment this and comment "Main app" for shutting the API down
 #- url: /.*
 #  script: error.error_handler
 

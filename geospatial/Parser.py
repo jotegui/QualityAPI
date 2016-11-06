@@ -47,7 +47,7 @@ class Parser():
 
             # Geospatial issues
             if 'validCountry' in self.flags and self.flags['validCountry'] == True:
-                
+
                 # Check if cached
                 # Coordinates rounded to 3 decimal places (111m)
                 memcache_key = '|'.join([str(round(self.decimalLatitude, 3)), str(round(self.decimalLongitude, 3)), str(self.countryCode), 'geosp'])
